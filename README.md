@@ -12,6 +12,10 @@ Fixes, updates and new symbols are welcome!
 
 It would also be nice to show the code examples in other languages, ie Python, R, C# etc..
 
+## Credits
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Table_of_mathematical_symbols_by_introduction_date)
+
 ## License
 
 MIT
