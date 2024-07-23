@@ -228,7 +228,7 @@
     name: "Product symbol",
     since: "1812",
     example: "\\prod_{x=2}^{4} {(x + 1)}",
-    code: "let sum = 1\n\nfor (let x=1; x<=4; x++) {\n  sum *= (x + 2)\n}"
+    code: "let sum = 1\nlet x = 2\n\nfor (let i=0; i<4; i++) {\n  sum *= (x + 1)\n}"
   },
   {
     symbol: '⊂',
@@ -271,14 +271,14 @@
     symbol: '∩',
     name: "Intersection",
     since: "1888",
-    example: "a \\mathbin{\\bigcap} b",
+    example: "a \\mathbin{\\cap} b",
     code: "let a = new Set(...)\nlet b = new Set(...)\n\na.intersection(b)"
   },
   {
     symbol: '∪',
     name: "Union",
     since: "1888",
-    example: "a \\mathbin{\\bigcup} b",
+    example: "a \\mathbin{\\cup} b",
     code: "let a = new Set(...)\nlet b = new Set(...)\n\na.union(b)"
   },
   /*
@@ -309,7 +309,7 @@
     name: "Existential quantifier (there exists)",
     since: "1897",
     example: "(\\exists x)\\space f(x)",
-    code: "let array = [ ... ]\n\narray.some(f)"
+    code: "let array = [ ... ]\n\narray.some(x => f(x))"
   },
   {
     symbol: '·',
@@ -360,7 +360,7 @@
     name: "Universal quantifier (for all)",
     since: "1935",
     example: "(\\forall x)\\space f(x)",
-    code: "let array = [ ... ]\n\narray.every(f)"
+    code: "let array = [ ... ]\n\narray.every(x => f(x))"
   },
   {
     symbol: '∅',
