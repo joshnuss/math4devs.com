@@ -17,12 +17,33 @@
 </footer>
 
 <style>
+  @import "open-props/media.min.css";
+
+  :root {
+    --display: block;
+    --margin: 2rem;
+    --place-items: flex-start;
+
+    @media (--sm-n-above) {
+    }
+
+    @media (--md-n-above) {
+      --display: flex;
+    }
+
+    @media (--lg-n-above) {
+      --margin: 6rem;
+      --place-items: center;
+    }
+  }
+
+
   :global(body) {
-    padding: 6rem;
-    display: flex;
+    margin: var(--margin);
+    display: var(--display);
     flex-direction: column;
     gap: 2rem;
-    place-items: center;
+    place-items: var(--place-items);
   }
 
   main {
