@@ -362,4 +362,25 @@
     example: "(\\forall x)\\space f(x)",
     code: "let array = [ ... ]\n\narray.every(f)"
   },
+  {
+    symbol: '∅',
+    name: "Empty set sign",
+    since: "1939",
+    example: "\\emptyset",
+    code: "new Set()"
+  },
+  {
+    symbol: '⌊x⌋',
+    name: "Greatest integer ≤ x (aka floor)",
+    since: "1962",
+    example: "\\lfloor{x}\\rfloor",
+    code: "Math.floor(x)"
+  },
+  {
+    symbol: '⌈x⌉',
+    name: "Smallest integer ≥ x (aka ceiling)	",
+    since: "1962",
+    example: "\\lceil{x}\\rceil",
+    code: "Math.ceil(x)"
+  },
 ]
