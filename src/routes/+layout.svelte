@@ -6,12 +6,22 @@
   <slot/>
 </main>
 
+<footer>
+  Created by <a href="https://x.com/joshnuss">Joshua Nussbaum</a>
+</footer>
+
 <style>
-  main {
+  :global(body) {
     padding: 6rem;
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 2rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
   }
 
   :global(.shiki.vitesse-light) {
