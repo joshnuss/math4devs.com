@@ -8,7 +8,9 @@ What is this?
 
 ## Contribution
 
-Fixes, updates and new symbols are welcome! It would also be nice to show the code examples in other languages, ie Python, R, C# etc..
+Fixes, updates and new symbols are welcome!
+
+It would also be nice to show the code examples in other languages, ie Python, R, C# etc..
 
 ## License
 
