@@ -227,8 +227,8 @@
     symbol: 'Π',
     name: "Product symbol",
     since: "1812",
-    example: "\\prod_{x=1}^{4} {(x + 1)} = 120",
-    code: "let sum = 1\n\nfor (let x=1; x<=4; x++) {\n  sum *= (x + 1)\n}"
+    example: "\\prod_{x=2}^{4} {(x + 1)}",
+    code: "let sum = 1\n\nfor (let x=1; x<=4; x++) {\n  sum *= (x + 2)\n}"
   },
   {
     symbol: '⊂',
