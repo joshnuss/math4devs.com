@@ -2,6 +2,12 @@
   import './global.css'
 </script>
 
+<svelte:head>
+  <meta
+    property="og:image"
+    content="https://image.social/get?url=math4devs.com/" />
+</svelte:head>
+
 <main>
   <slot/>
 </main>
