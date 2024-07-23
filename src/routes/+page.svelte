@@ -45,8 +45,8 @@
     /* background: var(--green-1) */
   }
 
-  tbody tr:nth-child(odd) td {
-    background-color: var(--gray-1);
+  tbody tr:nth-child(even) td {
+    background-color: var(--surface-2);
   }
 
   hgroup {
@@ -56,7 +56,7 @@
 
     p {
       font-size: 1.3rem;
-      color: var(--gray-7);
+      color: var(--text-2);
     }
   }
 </style>
