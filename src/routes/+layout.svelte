@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    place-items: center;
   }
 
   main {
