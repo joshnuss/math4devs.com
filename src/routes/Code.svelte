@@ -1,17 +1,12 @@
 <script>
-  import { codeToHtml } from 'shiki'
-
-  const options = {
-    lang: 'javascript',
-    theme: 'vitesse-light'
-  }
+  import { highlight } from '$lib/highlight.js'
 
   let { code } = $props()
 
   let output = $state('')
 
   $effect(async () => {
-    output = await codeToHtml(code, options)
+    output = await highlight(code)
   })
 </script>
 
