@@ -6,5 +6,8 @@ export default defineConfig({
   plugins: [
     json5(),
     sveltekit()
-  ]
+  ],
+  build: {
+    target: 'esnext'
+  }
 })
