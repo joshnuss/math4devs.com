@@ -1,12 +1,30 @@
-<script>
-  import { highlight } from '$lib/highlight.js'
+<script context="module">
+  import { createHighlighter } from 'shiki'
 
+  const theme = 'vitesse-light'
+  const lang = 'javascript'
+
+  const options = {
+    lang,
+    theme
+  }
+
+  let highlighter = await createHighlighter({
+    themes: [theme],
+    langs: [lang]
+  })
+
+</script>
+
+<script>
   let { code } = $props()
 
   let output = $state('')
 
   $effect(async () => {
-    output = await highlight(code)
+    if (!highlighter) return
+
+    output = await highlighter.codeToHtml(code, options)
   })
 </script>
 
