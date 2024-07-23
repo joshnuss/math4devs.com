@@ -1,7 +1,7 @@
 <script>
   import katex from 'katex'
 
-  const options = { output: 'mathml' }
+  const options = { displayMode: true, output: 'mathml' }
 
   let { example } = $props()
 </script>
