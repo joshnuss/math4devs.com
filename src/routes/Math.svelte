@@ -6,4 +6,12 @@
   let { example } = $props()
 </script>
 
-{@html katex.renderToString(example, options)}
+<div>
+  {@html katex.renderToString(example, options)}
+</div>
+
+<style>
+  div {
+    font-size: 1.4rem;
+  }
+</style>

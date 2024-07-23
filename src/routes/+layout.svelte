@@ -8,10 +8,10 @@
 
 <style>
   main {
-    padding: 3rem;
+    padding: 6rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
   }
 
   :global(.shiki.vitesse-light) {
