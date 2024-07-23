@@ -5,5 +5,145 @@
     since: "14th century",
     example: "\\frac{a} b",
     code: "a / b"
-  }
+  },
+  {
+    symbol: '+',
+    name: "Plus sign",
+    since: "1360",
+    example: "a + b",
+    code: "a + b"
+  },
+  {
+    symbol: '-',
+    name: "Minus sign",
+    since: "1489",
+    example: "a - b",
+    code: "a - b"
+  },
+  {
+    symbol: '√',
+    name: "Radical symbol",
+    since: "1525",
+    example: "\\sqrt{x}",
+    code: "Math.sqrt(x)"
+  },
+  {
+    symbol: '(...)',
+    name: "Parentheses",
+    since: "1544",
+    example: "(a + b)",
+    code: "(a + b)"
+  },
+  {
+    symbol: '=',
+    name: "Equals",
+    since: "1557",
+    example: "a = b",
+    code: "a = b"
+  },
+  {
+    symbol: '.',
+    name: "Decimal separator",
+    since: "1593",
+    example: "1.75",
+    code: "1.75"
+  },
+  {
+    symbol: '×',
+    name: "Multiplication sign",
+    since: "1618",
+    example: "a \\times b",
+    code: "a * b"
+  },
+  {
+    symbol: '±',
+    name: "Plus–minus sign",
+    since: "1628",
+    example: "a \\pm 2",
+    code: "[a - 2, a + 2]"
+  },
+  {
+    symbol: 'ⁿ√',
+    name: "Radical symbol for nth root",
+    since: "1629",
+    example: "\\sqrt[n]{a}",
+    code: "Math.pow(a, 1/n)"
+  },
+  {
+    symbol: '<',
+    name: "Strict inequality less-than",
+    since: "1631",
+    example: "a < b",
+    code: "a < b"
+  },
+  {
+    symbol: '>',
+    name: "Strict inequality greater-than",
+    since: "1631",
+    example: "a > b",
+    code: "a > b"
+  },
+  {
+    symbol: 'xʸ',
+    name: "Superscript notation",
+    since: "1636",
+    example: "a^b",
+    code: "a ** b"
+  },
+  {
+    symbol: 'x',
+    name: "Use of the letter x for an independent variable or unknown value",
+    since: "1637",
+    example: "x",
+    code: "// declare\nlet x\n\n// usage\nx\n\n// re-assign\nx = 2"
+  },
+  {
+    symbol: '%',
+    name: "Percent sign",
+    since: "1650",
+    example: "n\\%",
+    code: "n / 100"
+  },
+  {
+    symbol: '∞',
+    name: "Infinity sign",
+    since: "1655",
+    example: "\\infty",
+    code: "Infinity"
+  },
+  {
+    symbol: '÷',
+    name: "Division sign",
+    since: "1659",
+    example: "a \\div b",
+    code: "a / b"
+  },
+  {
+    symbol: '≤',
+    name: "Unstrict inequality less-than sign",
+    since: "1670",
+    example: "a \\leq b",
+    code: "a <= b"
+  },
+  {
+    symbol: '≥',
+    name: "Unstrict inequality greater-than sign",
+    since: "1670",
+    example: "a \\geq b",
+    code: "a >= b"
+  },
+  {
+    symbol: 'd',
+    name: "Differential sign",
+    since: "1675",
+    example: "m = \\frac{dy}{dx}",
+    code: "m = (y2 - y1) / (x2 - x1)"
+  },
+  {
+    symbol: '∫',
+    name: "Integral sign",
+    since: "1675",
+    example: "\\int",
+    code: "m = (y2 - y1) / (x2 - x1)"
+  },
 ]

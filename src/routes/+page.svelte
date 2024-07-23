@@ -5,27 +5,58 @@
   import Code from './Code.svelte'
 </script>
 
-<h1>Math4Devs</h1>
+<hgroup>
+  <h1>Math4Devs</h1>
+  <p>List of mathematical symbols with their JavaScript equivalent.</p>
+</hgroup>
 
 <table>
   <thead>
     <tr>
       <th>Symbol</th>
-      <th>Name</th>
-      <th>Since</th>
-      <th>Notation</th>
-      <th>JavaScript</th>
+      <th class="left">Name</th>
+      <th class="left">Since</th>
+      <th>Example</th>
+      <th class="left">JavaScript</th>
     </tr>
   </thead>
   <tbody>
     {#each symbols as symbol}
-      <tr>
-        <td>{symbol.symbol}</td>
-        <td>{symbol.name}</td>
-        <td>{symbol.since}</td>
+      <tr class:same={symbol.example == symbol.code}>
+        <td class="symbol">{symbol.symbol}</td>
+        <td class="left">{symbol.name}</td>
+        <td class="left">{symbol.since || 'unknown'}</td>
         <td><Math example={symbol.example}/></td>
-        <td><Code code={symbol.code}/></td>
+        <td class="left"><Code code={symbol.code}/></td>
       </tr>
     {/each}
   </tbody>
 </table>
+
+<style>
+  .symbol {
+    font-size: 1.7rem;
+  }
+  .left {
+    text-align: left;
+  }
+
+  .same td {
+    /* background: var(--green-1) */
+  }
+
+  tbody tr:nth-child(odd) td {
+    background-color: var(--gray-1);
+  }
+
+  hgroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    p {
+      font-size: 1.3rem;
+      color: var(--gray-7);
+    }
+  }
+</style>
