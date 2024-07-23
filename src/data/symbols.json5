@@ -143,7 +143,112 @@
     symbol: '∫',
     name: "Integral sign",
     since: "1675",
-    example: "\\int",
-    code: "m = (y2 - y1) / (x2 - x1)"
+    example: "\\int_{a}^{b} {dx}",
+    code: "// TODO"
+  },
+  {
+    symbol: ':',
+    name: "Colon for division",
+    since: "1684",
+    example: "a \\colon b",
+    code: "a / b"
+  },
+  {
+    symbol: '·',
+    name: "Middle dot for multiplication",
+    since: "1698",
+    example: "a \\cdot b",
+    code: "a * b"
+  },
+  {
+    symbol: '⁄',
+    name: "Division slash",
+    since: "1718",
+    example: "a \\mathbin{/} b",
+    code: "a / b"
+  },
+  {
+    symbol: '≠',
+    name: "Inequality sign",
+    since: null,
+    example: "a \\neq b",
+    code: "a != b"
+  },
+  {
+    symbol: 'x\'',
+    name: "Prime symbol for derivative",
+    since: "1748",
+    example: "{x}",
+    code: "// TODO"
+  },
+  {
+    symbol: 'Σ',
+    name: "Summation symbol",
+    since: "1755",
+    example: "\\sum_{i=0}^{10} x_{i}",
+    code: "let sum = 0\n\nfor(let i=0; i<10; i++) {\n  sum += i\n}"
+  },
+  {
+    symbol: '∝',
+    name: "Proportionality sign",
+    since: "1768",
+    example: "\\frac{x}{y} \\mathbin{\\alpha} \\frac{a}{b}",
+    code: "x/y == a/b"
+  },
+  {
+    symbol: '∂',
+    name: "Partial differential sign",
+    since: "1770",
+    example: "",
+    code: "// TODO"
+  },
+  {
+    symbol: '≡',
+    name: "Identity sign",
+    since: "1801",
+    example: "a \\mathbin{≡} b",
+    code: "a === b"
+  },
+  {
+    symbol: '[x]',
+    name: "Integral part (aka floor)",
+    since: "1808",
+    example: "[x]",
+    code: "Math.floor(x)"
+  },
+  {
+    symbol: '!',
+    name: "Factorial",
+    since: "1808",
+    example: "{n!}",
+    code: "function factorial(n) {\n  if (n == 0) return 1\n\n  return n * factorial(n - 1)\n}"
+  },
+  {
+    symbol: 'Π',
+    name: "Product symbol",
+    since: "1812",
+    example: "\\prod_{x=1}^{4} {(x + 1)} = 120",
+    code: "let sum = 1\n\nfor (let i=1; i<=4; i++) {\n  sum *= (i + 1)\n}"
+  },
+  {
+    symbol: '⊂',
+    name: "Set subset of",
+    since: "1817",
+    example: "a \\\subset b",
+    code: "let a = new Set(...)\nlet b = new Set(...)\n\na.isSubsetOf(b)"
+  },
+  {
+    symbol: '⊃',
+    name: "Set superset of",
+    since: "1817",
+    example: "a \\\supset b",
+    code: "let a = new Set(...)\nlet b = new Set(...)\n\na.isSupersetOf(b)"
+  },
+  {
+    symbol: '|...|',
+    name: "Absolute value notation",
+    since: "1841",
+    example: "|{x}|",
+    code: "Math.abs(x)"
   },
 ]
