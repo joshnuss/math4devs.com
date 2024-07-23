@@ -2,8 +2,8 @@
   {
     symbol: '―',
     name: "Horizontal bar for division",
-    since: "14th century",
-    example: "\\frac{a} b",
+    since: "~1300",
+    example: "\\frac{a}{b}",
     code: "a / b"
   },
   {
@@ -39,7 +39,7 @@
     name: "Equals",
     since: "1557",
     example: "a = b",
-    code: "a = b"
+    code: "// equality\na == b\n\n// assignment\na = b"
   },
   {
     symbol: '.',
