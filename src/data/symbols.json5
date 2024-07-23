@@ -95,7 +95,7 @@
     name: "Use of the letter x for an independent variable or unknown value",
     since: "1637",
     example: "x",
-    code: "// declare\nlet x\n\n// usage\nx\n\n// re-assign\nx = 2"
+    code: "// declare\nlet x = 0\n\n// usage\nx\n\n// re-assign\nx = 2"
   },
   {
     symbol: '%',
