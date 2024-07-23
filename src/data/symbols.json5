@@ -143,8 +143,8 @@
     symbol: '∫',
     name: "Integral sign",
     since: "1675",
-    example: "\\int_{a}^{b} {dx}",
-    code: "// TODO"
+    example: "\\int_{1}^{8} f(x) \\cdot {dx}",
+    code: "let dx = 1/8 // step size\nlet sum = 0\n\nfor (int x=1; x<=8; x++) {\n  sum += f(x) * dx\n}"
   },
   {
     symbol: ':',
@@ -178,7 +178,7 @@
     symbol: 'x\'',
     name: "Prime symbol for derivative",
     since: "1748",
-    example: "{x}",
+    example: "{x}'",
     code: "// TODO"
   },
   {
