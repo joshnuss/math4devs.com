@@ -251,4 +251,115 @@
     example: "|{x}|",
     code: "Math.abs(x)"
   },
+  {
+    symbol: '‖...‖',
+    name: "Matrix notation",
+    since: "1843",
+    example: "\\text{\\textbardbl}x\\text{\\textbardbl}",
+    code: "// TODO"
+  },
+  /*
+  {
+    symbol: '∇',
+    name: "Nabla symbol",
+    since: "1846",
+    example: "\\nabla",
+    code: "// TODO"
+  },
+  */
+  {
+    symbol: '∩',
+    name: "Intersection",
+    since: "1888",
+    example: "a \\mathbin{\\bigcap} b",
+    code: "let a = new Set(...)\nlet b = new Set(...)\n\na.intersection(b)"
+  },
+  {
+    symbol: '∪',
+    name: "Union",
+    since: "1888",
+    example: "a \\mathbin{\\bigcup} b",
+    code: "let a = new Set(...)\nlet b = new Set(...)\n\na.union(b)"
+  },
+  /*
+  {
+    symbol: 'ℵ',
+    name: "Aleph symbol for transfinite cardinal numbers",
+    since: "1893",
+    example: "",
+    code: "// TODO"
+  },
+  */
+  {
+    symbol: '∈',
+    name: "Membership sign",
+    since: "1894",
+    example: "a \\in b",
+    code: "let a = ...\nlet b = new Set(...)\n\nb.has(a)"
+  },
+  {
+    symbol: '{...}',
+    name: "Curly brackets for set notation",
+    since: "1895",
+    example: "\\{x, y, z\\}",
+    code: "new Set([x, y, z])"
+  },
+  {
+    symbol: '∃',
+    name: "Existential quantifier (there exists)",
+    since: "1897",
+    example: "(\\exists x)\\space f(x)",
+    code: "let array = [ ... ]\n\narray.some(f)"
+  },
+  {
+    symbol: '·',
+    name: "Dot product",
+    since: "1902",
+    example: "a \\cdot b",
+    code: "let a = [...]\nlet b = [...]\nlet sum = 0\n\nassert(a.length == b.length)\n\nfor (let i=0; i<a.length;i++) {\n  sum += a[i] * b[i]\n}"
+  },
+  {
+    symbol: '×',
+    name: "Cross product",
+    since: "1902",
+    example: "a \\times b",
+    code: "let a = [x1, y1, z1]\nlet b = [x2, y2, z2]\n\n[\n  (a[1] * b[2]) - (a[2] * b[1]),\n  (a[2] * b[0]) - (a[0] * b[2]),\n  (a[0] * b[1]) - (a[1] * b[0])\n]"
+  },
+  {
+    symbol: '∨',
+    name: "Logical disjunction (aka OR)",
+    since: "1906",
+    example: "a \\lor b",
+    code: "a | b"
+  },
+  {
+    symbol: '(...)',
+    name: "Matrix round bracket notation",
+    since: "1909",
+    example: "\\begin{pmatrix}\na & b & c\\\\\nx & y & z\n\\end{pmatrix}",
+    code: "[\n  [a, b, c]\n  [x, y, z]\n]"
+  },
+  {
+    symbol: '[...]',
+    name: "Matrix square bracket notation",
+    since: "1909",
+    example: "\\begin{bmatrix}\na & b & c\\\\\nx & y & z\n\\end{bmatrix}",
+    code: "[\n  [a, b, c]\n  [x, y, z]\n]"
+  },
+  /*
+  {
+    symbol: '∮',
+    name: "Contour integral sign",
+    since: "1917",
+    example: "",
+    code: "// TODO"
+  },
+  */
+  {
+    symbol: '∀',
+    name: "Universal quantifier (for all)",
+    since: "1935",
+    example: "(\\forall x)\\space f(x)",
+    code: "let array = [ ... ]\n\narray.every(f)"
+  },
 ]
