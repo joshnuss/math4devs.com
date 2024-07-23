@@ -228,7 +228,7 @@
     name: "Product symbol",
     since: "1812",
     example: "\\prod_{x=1}^{4} {(x + 1)} = 120",
-    code: "let sum = 1\n\nfor (let i=1; i<=4; i++) {\n  sum *= (i + 1)\n}"
+    code: "let sum = 1\n\nfor (let x=1; x<=4; x++) {\n  sum *= (x + 1)\n}"
   },
   {
     symbol: '⊂',
