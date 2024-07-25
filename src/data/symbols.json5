@@ -144,7 +144,7 @@
     name: "Integral sign",
     since: "1675",
     example: "\\int_{1}^{8} f(x) \\cdot {dx}",
-    code: "let dx = 1/8 // step size\nlet sum = 0\n\nfor (int x=0; x<8; x += dx) {\n  sum += f(x) * dx\n}"
+    code: "let dx = 1/8 // step size\nlet sum = 0\n\nfor (int x=1; x<=8; x += dx) {\n  sum += f(x) * dx\n}"
   },
   {
     symbol: ':',
