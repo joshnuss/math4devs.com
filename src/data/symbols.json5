@@ -337,14 +337,14 @@
     name: "Matrix round bracket notation",
     since: "1909",
     example: "\\begin{pmatrix}\na & b & c\\\\\nx & y & z\n\\end{pmatrix}",
-    code: "[\n  [a, b, c]\n  [x, y, z]\n]"
+    code: "[\n  [a, b, c],\n  [x, y, z]\n]"
   },
   {
     symbol: '[...]',
     name: "Matrix square bracket notation",
     since: "1909",
     example: "\\begin{bmatrix}\na & b & c\\\\\nx & y & z\n\\end{bmatrix}",
-    code: "[\n  [a, b, c]\n  [x, y, z]\n]"
+    code: "[\n  [a, b, c],\n  [x, y, z]\n]"
   },
   /*
   {
