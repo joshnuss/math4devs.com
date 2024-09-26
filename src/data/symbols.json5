@@ -330,7 +330,7 @@
     name: "Logical disjunction (aka OR)",
     since: "1906",
     example: "a \\lor b",
-    code: "a | b"
+    code: "a || b"
   },
   {
     symbol: '(...)',
