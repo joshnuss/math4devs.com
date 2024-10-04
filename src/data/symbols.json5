@@ -199,8 +199,8 @@
     symbol: '∂',
     name: "Partial differential sign",
     since: "1770",
-    example: "",
-    code: "// TODO"
+    example: "\\frac{\\partial f}{\\partial x} ≈ \\frac{f(x + h, y) - f(x, y)}{h}, \\text{ at } (x, y) = (2, 3), \\text{ for } f(x, y) = x^2 + y^2",
+    code: "const partialDerivativeX = (f, x, y, h = 1e-5) => (f(x + h, y) - f(x, y)) / h;\nconst f = (x, y) => x ** 2 + y ** 2;\npartialDerivativeX(f, 2, 3);"
   },
   {
     symbol: '≡',
