@@ -228,7 +228,7 @@
     name: "Product symbol",
     since: "1812",
     example: "\\prod_{x=2}^{4} {(x + 1)}",
-    code: "let product = 1\nlet x = 2\n\nfor (let i=0; i<4; i++) {\n  product *= (x + 1)\n}"
+    code: "let product = 1\n\nfor (let x=2; x<=4; x++) {\n  product *= (x + 1)\n}"
   },
   {
     symbol: '⊂',
