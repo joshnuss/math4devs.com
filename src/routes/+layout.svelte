@@ -13,7 +13,7 @@
 </main>
 
 <footer>
-  Created by <a href="https://x.com/joshnuss">Joshua Nussbaum</a>
+  Created by <a href="https://bsky.app/profile/joshnuss.com">Joshua Nussbaum</a>
 </footer>
 
 <style>
